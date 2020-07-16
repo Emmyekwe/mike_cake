@@ -1,38 +1,647 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  position: relative;
+width: 1440px;
+height: 4045px;
+margin: auto;
+background: #FFFFFF;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+header {
+  height: 200px;
+}
+
+header h2 {
+position: absolute;
+width: 229.6px;
+height: 42px;
+left: 164.6px;
+top: 105px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 33.6px;
+line-height: 42px;
+color: #E56B6F;
+}
+
+section h1 {
+  position: absolute;
+  width: 716px;
+  height: 56px;
+  left: 120px;
+  top: 286px;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #E56B6F;
+}
+
+section .thirty {
+  position: absolute;
+width: 34px;
+height: 40px;
+left: 126px;
+top: 788px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+color: #355070;
+}
+
+section .six {
+  position: absolute;
+width: 102px;
+height: 20px;
+left: 126px;
+top: 828px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #E56B6F;
+}
+
+section .grid1 h5 {
+  position: absolute;
+width: 247px;
+height: 30px;
+left: 927px;
+top: 1076px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #355070;
+}
+
+section .grid1 p {
+  position: absolute;
+width: 318px;
+height: 57px;
+left: 927px;
+top: 1114px;
+font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #355070;
+}
+
+section .grid2 h5 {
+  position: absolute;
+  width: 209px;
+  height: 30px;
+  left: 927px;
+  top: 1279px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #355070;
+}
+
+section .grid2 p {
+  position: absolute;
+width: 318px;
+height: 40px;
+left: 927px;
+top: 1317px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #355070;
+}
+
+/* grid3 */
+section .grid3 h5 {
+  position: absolute;
+width: 343px;
+height: 30px;
+left: 927px;
+top: 1469px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #355070;
+}
+
+section .grid3 p {
+  position: absolute;
+width: 318px;
+height: 40px;
+left: 927px;
+top: 1508px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #355070;
+
+}
+
+section p {
+  position: absolute;
+width: 641px;
+height: 56px;
+left: 120px;
+top: 366px;
+font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #355070;
+}
+
+section h4 {
+position: absolute;
+width: 430px;
+height: 19px;
+left: 126px;
+top: 502px;
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #E56B6F;
+}
+
+section input {
+position: absolute;
+width: 148px;
+height: 48px;
+left: 140px;
+top: 550px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #355070;
+}
+/* 
+section form {
   display: flex;
-  flex-direction: column;
+flex-direction: row;
+padding: 14.5px 30px;
+
+position: absolute;
+width: 191px;
+height: 49px;
+left: 483px;
+top: 535px;
+
+background: #E56B6F;
+border-radius: 5px;
+} */
+
+section button {
+  display: flex;
+flex-direction: row;
+padding: 14.5px 30px;
+
+position: absolute;
+width: 191px;
+height: 49px;
+left: 483px;
+top: 535px;
+
+background: #E56B6F;
+border-radius: 5px;
+}
+
+section .short {
+  position: absolute;
+width: 444px;
+height: 37px;
+left: 498px;
+top: 908px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+
+color: #355070;
+}
+
+section .long {
+  position: absolute;
+width: 611px;
+height: 19px;
+left: 415px;
+top: 970px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #355070;
+
+}
+
+section .grid1 h5 {
+  position: absolute;
+width: 247px;
+height: 30px;
+left: 927px;
+top: 1076px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #355070;
+
+
+}
+
+section .grid1 p {
+  position: absolute;
+width: 318px;
+height: 57px;
+left: 927px;
+top: 1114px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #355070;
+
+
+}
+
+section .screen h3 {
+  position: absolute;
+  width: 206px;
+  height: 37px;
+  left: 608px;
+  top: 1731px;
+  
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  
+  color: #355070;
+  
+
+}
+
+section .screen h4 {
+  position: absolute;
+width: 611px;
+height: 19px;
+left: 405px;
+top: 1793px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #355070;
+}
+
+section .demo h2 {
+  position: absolute;
+width: 340px;
+height: 37px;
+left: 600px;
+top: 2656px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+
+color: #355070;
+
+}
+
+section .television img {
+  position: absolute;
+width: 805px;
+height: 440px;
+left: 318px;
+top: 2792px;
+
+background: #C4C4C4;
+}
+
+section .access h2 {
+  position: absolute;
+width: 1111px;
+height: 40.06px;
+left: 296px;
+top: 3475.19px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #355070;
+
+}
+
+section .access p {
+  position: absolute;
+width: 355px;
+height: 19.03px;
+left: 562px;
+top: 3555.3px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #6D6875;
+
+}
+
+section form .last {
+  position: absolute;
+width: 341px;
+height: 48.07px;
+left: 446px;
+top: 3585.35px;
+
+}
+
+section .phone p {
+  position: absolute;
+width: 247px;
+height: 30.04px;
+left: 511px;
+top: 3849.72px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #6D6875;
+}
+
+section .location p {
+  position: absolute;
+width: 458px;
+height: 30.04px;
+left: 511px;
+top: 3799.65px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #6D6875;
+
+}
+
+section .baker  img {
+  position: absolute;
+width: 41px;
+height: 41.06px;
+left: 585px;
+top: 3725.55px;
+}
+
+section .baker h2 {
+  position: absolute;
+width: 229.6px;
+height: 42.06px;
+left: 625.6px;
+top: 3725.55px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 33.6px;
+line-height: 42px;
+color: #E56B6F;
+}
+
+section .blank {
+  position: absolute;
+width: 1297px;
+height: 38px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 38px;
+color: #000000;
+}
+
+
+section .blank .home2 {
+  position: absolute;
+width: 350px;
+height: 286px;
+left: 545px;
+top: 1889px;
+}
+
+section .blank .home img {
+  position: absolute;
+width: 350px;
+height: 255px;
+left: 120px;
+top: 1889px;
+
+background: #C4C4C4;
+/* soft */
+
+box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+section .blank .home p {
+  position: absolute;
+width: 80px;
+height: 20px;
+left: 255px;
+top: 2155px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #6D6875;
+
+}
+
+header img {
+  position: absolute;
+width: 41px;
+height: 41px;
+left: 124px;
+top: 105px;
+}
+
+.center {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* section .icon p {
+  position: absolute;
+left: 30.55%;
+right: 30.55%;
+top: 12.5%;
+bottom: 12.51%;
+
+background: #355070;
+
+} */
+
+input[type='text'] {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #355070;
+  border-radius: 5px;
+  width: 341px;
+  margin: auto;
+}
+
+
+
+button {
+  display: flex;
+flex-direction: row;
+padding: 14.5px 30px;
+
+position: absolute;
+width: 191px;
+height: 49px;
+left: 483px;
+top: 535px;
+
+background: #E56B6F;
+border-radius: 5px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 97.14px;
+left: 0px;
+top: 3947.86px;
+
+background: #355070;
+}
+
+footer h6 {
+  position: absolute;
+width: 157px;
+height: 20.03px;
+left: 121px;
+padding-top: 40px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+footer h6 a {
+  position: absolute;
+width: 198px;
+height: 20.49px;
+left: 302px;
+color: #FFFFFF;
+}
+
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
   }
 }
