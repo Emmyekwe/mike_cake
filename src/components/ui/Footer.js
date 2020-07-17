@@ -1,11 +1,12 @@
 import React from 'react'
+import facebook from '../../img/facebook.png'
+import twitter from '../../img/twitter.png'
+import instagram from '../../img/instagram.png'
 import '../../App.css'
 const Footer = () => {
     
 
-    return <footer>
-        <h6>Copyright, Masterbaker <a href="#">General Policy | Terms of Use</a> </h6>
-    </footer>
+    return 
 }
 
 export default Footer

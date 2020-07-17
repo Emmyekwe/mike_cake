@@ -11,10 +11,9 @@ const App = () => {
 
   return (
     <div className="container">
-        <Header />
         <Hero />
         <CharacterGrid  />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 }
