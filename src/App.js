@@ -12,8 +12,6 @@ const App = () => {
   return (
     <div className="container">
         <Hero />
-        <CharacterGrid  />
-        {/* <Footer /> */}
     </div>
   );
 }
